@@ -1,11 +1,14 @@
 ﻿// EmuBD.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 //
-
+#include "autodb.h"
 #include <iostream>
 
 int main()
 {
     std::cout << "Hello World!\n";
+    autodb a;
+    
+    cout << autodb::ToSting(a[0]);
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
